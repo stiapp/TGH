@@ -4,7 +4,7 @@
     MetodaCoDelaKouzelneHodnoty(int id_hladoveho_zvirete_v_zoo)
     Díky :)
  */
-package idos.TGH;
+package TGH.TGH;
 
 /** třída reprezentuje uzel grafu
  *
@@ -27,5 +27,12 @@ public class Uzel {
         this.cas = cas_stanice;
         this.cislo_stanice = cislo_stanice;
     }
+
+    @Override
+    public String toString() {
+        return "(" + cislo_stanice + ", cas=" + cas + ')';
+    }
+    
+    
     
 }
